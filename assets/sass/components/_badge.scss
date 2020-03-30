@@ -1,0 +1,77 @@
+.badge-primary {
+  background-color: $indigo-color;
+  color: #fff;
+}
+
+.badge-secondary {
+  background-color: $purple-color;
+  color: #fff;
+}
+
+.badge-success {
+  background-color: $green-color;
+  color: #fff;
+}
+
+.badge-danger {
+  background-color: $red-color;
+  color: #fff;
+}
+
+.badge-warning {
+  background-color: $orange-color;
+  color: #fff;
+}
+
+.badge-info {
+  background-color: $blue-color;
+  color: #fff;
+}
+
+.badge-light {
+  background-color: $base-color5;
+  color: $base-color2;
+}
+
+.badge-dark {
+  color: #fff;
+  background-color: $base-color1;
+}
+
+.badge {
+  font-size: 0.86em;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  line-height: 1em;
+  padding: 0.34em 0.5em;
+  border-radius: 2px;
+}
+
+.badge.badge-pill {
+  border-radius: 1.6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  .badge {
+    font-weight: inherit;
+    letter-spacing: inherit;
+    padding: 0.25em 0.5em;
+  }
+}
+
+.up-badge {
+  position: relative;
+
+  .badge {
+    border-radius: 50%;
+    font-size: 14px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+  }
+}

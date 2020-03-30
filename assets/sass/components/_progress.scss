@@ -1,0 +1,48 @@
+.progress {
+  height: 6px;
+  border-radius: 20px;
+  background-color: $base-color4;
+}
+
+.with-lables.progress {
+  overflow: inherit;
+}
+
+.with-lables.progress .progress-bar {
+  border-radius: initial;
+}
+
+.progress-bar {
+  background-color: $indigo-color;
+  position: relative;
+}
+
+.progress .progress-per {
+  position: absolute;
+  right: -17px;
+  top: -45px;
+  font-size: 12px;
+  line-height: 1.5em;
+  padding: 5px 0px;
+  width: 34px;
+  text-align: center;
+}
+
+.progress .progress-per:before {
+  content: '';
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  background: $indigo-color;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 20px 20px 0px 20px;
+  top: -5px;
+  left: -2px;
+}
+
+.progress span {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}

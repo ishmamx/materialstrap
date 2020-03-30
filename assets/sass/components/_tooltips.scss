@@ -1,0 +1,25 @@
+.tooltip {
+  line-height: 1.6em;
+  font-size: 12;
+  font-family: inherit;
+}
+.tooltip.show {
+  opacity: 1;
+}
+.bs-tooltip-top .arrow::before,
+.bs-tooltip-left .arrow::before,
+.bs-tooltip-right .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+  display: none !important;
+}
+.tooltip-inner {
+  max-width: 200px;
+  padding: 5px 15px;
+  color: #fff;
+  text-align: center;
+  background-color: #757575;
+  border-radius: 4px;
+}
+.bs-tooltip-right, .bs-tooltip-auto[x-placement^="right"] {
+  padding: 0 20px;
+}

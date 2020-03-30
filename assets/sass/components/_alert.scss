@@ -1,0 +1,125 @@
+.alert {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+  padding: 14px 15px;
+  line-height: 1.45em;
+  border: none;
+  position: relative;
+}
+
+.alert-link {
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  position: absolute;
+  right: 15px;
+}
+
+.alert-primary {
+  background-color: rgba($indigo-color, 0.1);
+  color: $indigo-color;
+}
+
+.alert-secondary {
+  background-color: rgba($purple-color, 0.1);
+  color: $purple-color;
+}
+
+.alert-success {
+  background-color: rgba($green-color, 0.1);
+  color: $green-color;
+}
+
+.alert-danger {
+  background-color: rgba($red-color, 0.1);
+  color: $red-color;
+}
+
+.alert-warning {
+  background-color: rgba($orange-color, 0.1);
+  color: $orange-color;
+}
+
+.alert-info {
+  background-color: rgba($blue-color, 0.1);
+  color: $blue-color;
+}
+
+.alert-light {
+  background-color: $base-color5;
+  color: $base-color2;
+}
+
+.alert-dark {
+  background-color: $base-color1;
+  color: #fff;
+}
+
+.alert-primary .alert-link {
+  color: $indigo-color;
+
+  &:hover {
+    color: rgba($indigo-color, 0.8);
+  }
+}
+
+.alert-secondary .alert-link {
+  color: $purple-color;
+
+  &:hover {
+    color: rgba($purple-color, 0.8);
+  }
+}
+
+.alert-success .alert-link {
+  color: $green-color;
+
+  &:hover {
+    color: rgba($green-color, 0.8);
+  }
+}
+
+.alert-danger .alert-link {
+  color: $red-color;
+
+  &:hover {
+    color: rgba($red-color, 0.8);
+  }
+}
+
+.alert-warning .alert-link {
+  color: $orange-color;
+
+  &:hover {
+    color: rgba($orange-color, 0.8);
+  }
+}
+
+.alert-info .alert-link {
+  color: $blue-color;
+
+  &:hover {
+    color: rgba($blue-color, 0.8);
+  }
+}
+
+.alert-light .alert-link {
+  color: $base-color1;
+
+  &:hover {
+    color: $base-color2;
+  }
+}
+
+.alert-dark .alert-link {
+  color: $indigo-color;
+
+  &:hover {
+    color: rgba($indigo-color, 0.8);
+  }
+}
+.alert hr {
+    margin: 15px 0;
+}

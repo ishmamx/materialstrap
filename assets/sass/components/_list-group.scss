@@ -1,0 +1,79 @@
+.list-group-item {
+  font-size: 16px;
+  line-height: 1.6em;
+  border-color: $base-color4;
+  color: $base-color1;
+  padding: 12px 20px;
+}
+
+.list-group-item.active,
+.list-group-item-action.active:hover {
+  border-color: rgba($indigo-color, 0.1);
+  background-color: rgba($indigo-color, 0.1);
+  color: $indigo-color;
+}
+
+.list-group-item.disabled,
+.list-group-item:disabled {
+  color: $base-color3;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  color: $indigo-color;
+  background-color: rgba($indigo-color, 0.1);
+  border-color: rgba($indigo-color, 0.1);
+}
+
+.list-group-flush .list-group-item {
+  // border: none;
+  // padding: 10px 0px;
+}
+.list-group-item-primary {
+  background-color: $indigo-color;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.17px;
+}
+.list-group-item-secondary {
+  background-color: $purple-color;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.17px;
+}
+.list-group-item-success {
+  background-color: $green-color;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.17px;
+}
+.list-group-item-danger {
+  background-color: $red-color;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.17px;
+}
+.list-group-item-warning {
+  background-color: $orange-color;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.17px;
+}
+.list-group-item-info {
+  background-color: $blue-color;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.17px;
+}
+.list-group-item-light {
+  background-color: $base-color5;
+  color: $base-color2;
+  border: none;
+  letter-spacing: 0.17px;
+}
+.list-group-item-dark {
+  background-color: $base-color1;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.17px;
+}
