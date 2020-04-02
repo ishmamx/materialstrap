@@ -10,7 +10,7 @@
     $(window).trigger("resize");
   });
 
-  $(document).on("ready", function() {
+  $(document).ready(function() {
     $(window).trigger("resize");
     mainMenu();
     mobileMenu();

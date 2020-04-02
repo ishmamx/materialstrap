@@ -1,0 +1,34 @@
+{
+  "name": "materialstrap",
+  "version": "1.0.1",
+  "description": "Bootstrap meets Google’s Material Design",
+  "main": "assets/js/materialstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yookits/materialstrap.git"
+  },
+  "keywords": [
+    "admin",
+    "dashboard",
+    "framework",
+    "template",
+    "css",
+    "sass",
+    "responsive",
+    "control-panel",
+    "admin-dashboard",
+    "dashboard-template",
+    "bootstrap-admin",
+    "bootstrap-dashboard",
+    "theme"
+  ],
+  "author": "YooKits",
+  "license": "CC by 4.0",
+  "bugs": {
+    "url": "https://github.com/yookits/materialstrap/issues"
+  },
+  "homepage": "https://github.com/yookits/materialstrap#readme"
+}

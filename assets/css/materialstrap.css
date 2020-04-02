@@ -2296,6 +2296,77 @@ code {
 kbd {
   background-color: rgba(0, 0, 0, 0.87); }
 
+.yoo-icons-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .yoo-icons-wrap li {
+    width: 16.666667%;
+    padding: 0 15px; }
+  .yoo-icons-wrap .yoo-icons-wrap-in {
+    text-align: center;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .yoo-icons-wrap .yoo-icons-wrap-in:hover {
+      -webkit-transform: translateY(-6px);
+              transform: translateY(-6px); }
+  .yoo-icons-wrap i {
+    display: block;
+    font-size: 40px;
+    padding: 30px 0; }
+  .yoo-icons-wrap .yoo-icons-classes {
+    font-size: 14px;
+    border-top: 1px solid #eaeaea;
+    display: block;
+    padding: 10px 0; }
+
+.yoo-add {
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #fff; }
+  .yoo-add .yoo-add-in {
+    padding: 25px 15px;
+    display: block;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #f2f2f6;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    text-align: center; }
+  .yoo-add .yoo-add-thumb {
+    display: block;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    width: 160px;
+    margin: auto;
+    margin-bottom: 16px; }
+  .yoo-add .yoo-add-title {
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 16px; }
+
+.yoo-sidebar-active .yoo-add {
+  display: none; }
+.yoo-sidebar-active .yoo-add + .yoo-sidebarheader-in {
+  height: 100% !important; }
+
+@media screen and (min-width: 991px) {
+  .yoo-add + .yoo-sidebarheader-in {
+    height: calc(100% - 260px) !important; } }
+@media screen and (max-width: 991px) {
+  .yoo-add {
+    display: none; } }
 @media screen and (max-width: 991px) {
   .tt-sticky-content-in {
     width: 100% !important;

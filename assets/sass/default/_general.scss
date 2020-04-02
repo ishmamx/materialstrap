@@ -783,14 +783,17 @@ ol.yoo-un-list {
   background-color: rgba($indigo-color, 0.1);
   color: $indigo-color;
 }
+
 .yoo-purple-box {
   background-color: rgba($purple-color, 0.1);
   color: $purple-color;
 }
+
 .yoo-blue-box {
   background-color: rgba($blue-color, 0.1);
   color: $blue-color;
 }
+
 .yoo-green-box {
   background-color: rgba($green-color, 0.1);
   color: $green-color;
@@ -800,14 +803,17 @@ ol.yoo-un-list {
   background-color: rgba($red-color, 0.1);
   color: $red-color;
 }
+
 .yoo-orange-box {
   background-color: rgba($orange-color, 0.1);
   color: $orange-color;
 }
+
 .yoo-blue-gray-box {
   background-color: rgba($blue-gray-color, 0.1);
   color: $blue-gray-color;
 }
+
 .yoo-gray-box {
   background-color: rgba($gray-color, 0.1);
   color: $gray-color;
@@ -1838,6 +1844,101 @@ kbd {
   background-color: $base-color1;
 }
 
+.yoo-icons-wrap {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    width: 16.666667%;
+    padding: 0 15px;
+  }
+
+  .yoo-icons-wrap-in {
+    text-align: center;
+    border: 1px solid $base-color4;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+    }
+  }
+
+  i {
+    display: block;
+    font-size: 40px;
+    padding: 30px 0;
+  }
+
+  .yoo-icons-classes {
+    font-size: 14px;
+    border-top: 1px solid $base-color4;
+    display: block;
+    padding: 10px 0;
+  }
+}
+
+// Start Add
+.yoo-add {
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #fff;
+
+  .yoo-add-in {
+    padding: 25px 15px;
+    display: block;
+    transition: all 0.3s ease;
+    background-color: #f2f2f6;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .yoo-add-thumb {
+    display: block;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    width: 160px;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+
+  .yoo-add-title {
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+}
+
+.yoo-sidebar-active {
+  .yoo-add {
+    display: none;
+  }
+
+  .yoo-add+.yoo-sidebarheader-in {
+    height: 100% !important;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .yoo-add+.yoo-sidebarheader-in {
+    height: calc(100% - 260px) !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .yoo-add {
+    display: none;
+  }
+}
+
+// End Add
 @media screen and (max-width: 991px) {
 
   .tt-sticky-content-in {

@@ -507,6 +507,15 @@
     <div class="yoo-button-bar3"></div>
   </div><!-- .yoo-sidebarheader-toggle -->
   <div class="yoo-sidebarheader">
+    <div class="yoo-add">
+      <div class="yoo-add-in">
+        <a target="_blank" href="https://yookits.com/product/materialx-material-bootstrap-admin-template" class="yoo-add-thumb">
+          <img src="../assets/img/MATERIAL-X-3.png" alt="MaterialXPro">
+        </a>
+        <h2 class="yoo-add-title"><a target="_blank" href="https://yookits.com/product/materialx-material-bootstrap-admin-template">Go Pro &amp; unlock  100+ more UI components &amp; pages.</a></h2>
+        <a target="_blank" href="https://yookits.com/product/materialx-material-bootstrap-admin-template" class="yoo-add-btn btn btn-success btn-sm">Show Me</a>
+      </div>
+    </div>
     <div class="yoo-sidebarheader-in" data-scrollbar>
       <div class="yoo-sidebar-nav">
         <ul class="yoo-sidebar-nav-list yoo-mp0">
@@ -913,14 +922,6 @@
               </li>
             </ul><!-- .yoo-sidebar-nav-dropdown -->
           </li>
-          <li>
-            <a href="../migration/migration.html" data-ripple="ripple" data-ripple-color="#6200EE">
-              <span class="yoo-sidebar-link-title">
-                <span class="yoo-sidebar-link-icon"><i class="material-icons">archive</i></span>
-                <span class="yoo-sidebar-link-text">Migration</span>
-              </span>
-            </a>
-          </li>
         </ul><!-- .yoo-sidebar-nav-list -->
       </div>
     </div>
@@ -944,45 +945,26 @@
 
           <h2 id="quick-start"><span class="bd-content-title">Quick start<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#quick-start" style="padding-left: 0.375em;"></a></span></h2>
 
-<p>Looking to quickly add MaterialStrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? <a href="/docs/4.4/getting-started/download/">Head to the downloads page</a>.</p>
+<p>Looking to quickly add MaterialStrap to your project? Use MaterialStrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? <br><a href="download.html" class="btn btn-primary" style="margin: 10px 0;">Head to the downloads page</a>.</p>
 
 <h3 id="css"><span class="bd-content-title">CSS<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#css" style="padding-left: 0.375em;"></a></span></h3>
 
 <p>Copy-paste the stylesheet <code class="highlighter-rouge">&lt;link&gt;</code> into your <code class="highlighter-rouge">&lt;head&gt;</code> before all other stylesheets to load our CSS.</p>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"</span> <span class="na">integrity=</span><span class="s">"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/css/material-icons.css"</span><span class="nt">&gt;</span></code>
+<code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/css/bootstrap.min.css"</span><span class="nt">&gt;</span></code>
+<code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/css/materialstrap.css"</span><span class="nt">&gt;</span></code>
+</pre></figure>
 
 <h3 id="js"><span class="bd-content-title">JS<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#js" style="padding-left: 0.375em;"></a></span></h3>
 
-<p>Many of our components require the use of JavaScript to function. Specifically, they require <a href="https://jquery.com/">jQuery</a>, <a href="https://popper.js.org/">Popper.js</a>, and our own JavaScript plugins. Place the following <code class="highlighter-rouge">&lt;script&gt;</code>s near the end of your pages, right before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable them. jQuery must come first, then Popper.js, and then our JavaScript plugins.</p>
+<p>Place the following <code class="highlighter-rouge">&lt;script&gt;</code>s near the end of your pages, right before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable them.</p>
 
-<p>We use <a href="https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/">jQuery’s slim build</a>, but the full version is also supported.</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.4.1.slim.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
-<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
-<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></figure>
-
-<p>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below. If you’re at all unsure about the general page structure, keep reading for an example page template.</p>
-
-<p>Our <code class="highlighter-rouge">bootstrap.bundle.js</code> and <code class="highlighter-rouge">bootstrap.bundle.min.js</code> include <a href="https://popper.js.org/">Popper</a>, but not <a href="https://jquery.com/">jQuery</a>. For more information about what’s included in Bootstrap, please see our <a href="/docs/4.4/getting-started/contents/#precompiled-bootstrap">contents</a> section.</p>
-
-<details>
-<summary class="text-primary mb-3">Show components requiring JavaScript</summary>
-
-
-<ul>
-  <li>Alerts for dismissing</li>
-  <li>Buttons for toggling states and checkbox/radio functionality</li>
-  <li>Carousel for all slide behaviors, controls, and indicators</li>
-  <li>Collapse for toggling visibility of content</li>
-  <li>Dropdowns for displaying and positioning (also requires <a href="https://popper.js.org/">Popper.js</a>)</li>
-  <li>Modals for displaying, positioning, and scroll behavior</li>
-  <li>Navbar for extending our Collapse plugin to implement responsive behavior</li>
-  <li>Tooltips and popovers for displaying and positioning (also requires <a href="https://popper.js.org/">Popper.js</a>)</li>
-  <li>Scrollspy for scroll behavior and navigation updates</li>
-</ul>
-
-</details>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/js/jquery-3.4.1.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/js/bootstrap.bundle.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/js/smooth-scrollbar.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/js/materialstrap.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></figure>
 
 <h2 id="starter-template"><span class="bd-content-title">Starter template<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#starter-template" style="padding-left: 0.375em;"></a></span></h2>
 
@@ -994,24 +976,24 @@
     <span class="c">&lt;!-- Required meta tags --&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1, shrink-to-fit=no"</span><span class="nt">&gt;</span>
-
-    <span class="c">&lt;!-- Bootstrap CSS --&gt;</span>
-    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"</span> <span class="na">integrity=</span><span class="s">"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span>
-
+    <span class="c">&lt;!-- MaterialStrap CSS --&gt;</span>
+    <code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/css/material-icons.css"</span><span class="nt">&gt;</span></code>
+    <code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/css/bootstrap.min.css"</span><span class="nt">&gt;</span></code>
+    <code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/css/materialstrap.css"</span><span class="nt">&gt;</span></code>
     <span class="nt">&lt;title&gt;</span>Hello, world!<span class="nt">&lt;/title&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
     <span class="nt">&lt;h1&gt;</span>Hello, world!<span class="nt">&lt;/h1&gt;</span>
 
-    <span class="c">&lt;!-- Optional JavaScript --&gt;</span>
-    <span class="c">&lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;</span>
-    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.4.1.slim.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
-    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
-    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="c">&lt;!-- Script --&gt;</span>
+    <code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/js/jquery-3.4.1.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/js/bootstrap.bundle.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/js/smooth-scrollbar.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/materialstrap@1.0.1/assets/js/materialstrap.js"</span><span class="nt">&gt;&lt;/script&gt;</span></code>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
-<p>That’s all you need for overall page requirements. Visit the <a href="/docs/4.4/layout/overview/">Layout docs</a> or <a href="/docs/4.4/examples/">our official examples</a> to start laying out your site’s content and components.</p>
+<p>That’s all you need for overall page requirements.</p>
         </div>
       </div>
     </div>
@@ -1019,7 +1001,7 @@
     <footer class="yoo-footer yoo-style1">
       <div class="container">
         <div class="yoo-footer-content">
-          <div class="yoo-copyride">Made with coffee &amp; love by YooKits ©All rights reserved.</div>
+          <div class="yoo-copyride">Made with coffee &amp; love by <a href="https://yookits.com/" target="_blank">YooKits</a> ©All rights reserved.</div>
           <ul class="yoo-footer-nav yoo-mp0 yoo-flex">
             <li><a href="#">About</a></li>
             <li><a href="#">Privacy Policy</a></li>
@@ -1031,9 +1013,9 @@
   </div><!-- .yoo-content -->
 
   <!-- Required Scripts -->
-  <script src="../assets/js/jquery-1.12.4.min.js"></script>
+  <script src="../assets/js/jquery-3.4.1.min.js"></script>
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
-  <script src="../assets/js/smooth-scrollbar.js"></script>
+  <script src="../assets/js/smooth-scrollbar.min.js"></script>
   <script src="../assets/js/materialstrap.js"></script>
 </body>
 </html>
