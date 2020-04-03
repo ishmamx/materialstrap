@@ -1,6 +1,6 @@
 {
   "name": "materialstrap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bootstrap meets Google’s Material Design",
   "main": "assets/js/materialstrap.js",
   "scripts": {
